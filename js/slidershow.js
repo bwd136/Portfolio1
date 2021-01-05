@@ -41,4 +41,12 @@ $(document).ready(function(){
         navigateByKeyboard: true,
         background: 'rgba(251,250,248)'
       });
+      $('.slideshow').slickLightbox().on({
+        'show.slickLightbox':function(){
+          $('body').toggleClass('hiddenoverflow')
+        },
+        'hide.slickLightbox':function(){
+          $('body').removeClass('hiddenoverflow')
+        }
+      });
   });
