@@ -30,7 +30,13 @@ a {
 }
 
 .herobox {
-    min-height: 2000px;
+    width: 100%;
+    height: 2000px;
+}
+
+.herobox#heroimage {
+    background-image: url(images/meherooverlay1.jpg);
+    background-repeat: no-repeat;
 }
 
 
