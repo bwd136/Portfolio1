@@ -1,7 +1,6 @@
 $(document).ready(function() { 
-
-$('.header-container').scrollToFixed({ 
-marginTop: 0, limit: 550 });
+    $('.header-container').scrollToFixed({ 
+        marginTop: 0, limit: 1800});
 });
 
 $(document).ready(function () {
