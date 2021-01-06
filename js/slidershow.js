@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.slideshow').slick({
+        
         dots: false,
         infinite: false,
         speed: 300,

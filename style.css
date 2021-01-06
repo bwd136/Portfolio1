@@ -27,6 +27,7 @@ a {
     width: 100%;
     height: 2000px; 
 }
+
 .herobox {
     clip: rect(0, auto, auto, 0);
     position: absolute;
@@ -35,6 +36,7 @@ a {
     width: 100%;
     height: 100%;
 }
+
 .heroimage {
     background-image: url(images/meherooverlay.jpg);
     position: fixed;
@@ -48,6 +50,7 @@ a {
     transform: translateZ(0);
     will-change: transform;
 }
+
 .herotext {
     position: fixed;
     bottom: 20%;
@@ -255,10 +258,28 @@ a.mybutton1 {
 .slick-slide {
     outline: none;  
 }
-
 .slick-prev,
-.slick-next {
+.slick-next
+{
+  top: 40%;  
+  width: 30px;
+  height: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
     color: #1E2224;
+}
+
+[dir='rtl'] .slick-prev:before, .slick-next:before
+{   color: #1E2224;
+    content: url(images/chevronnext.svg);
+}
+
+
+[dir='rtl'] .slick-next:before, .slick-prev:before
+{   color: #1E2224;
+    content: url(images/chevronback.svg);
 }
 
 .slick-lightbox img {
@@ -266,21 +287,26 @@ a.mybutton1 {
 }
 
 .slick-lightbox .slick-prev{
-        top: 50%;
-        left:30px;
+    top: 50%;
+    left:30px;
     }
+
 .slick-lightbox .slick-next{
-        top: 50%;
-        right:30px;
+    top: 50%;
+    right:30px;
     }
+
 .slick-lightbox-close{
-        top:15px;
-        right:30px;
+    top:15px;
+    right:30px;
 }
+
 .slick-lightbox-close:before{
-        font-size:50px;
-        color: #1E2224;
+    font-size:50px;
+    color: #1E2224;
 }
+
+
 /* about page main content */
 .container-about {
     max-width: 1800px;
@@ -301,8 +327,7 @@ a.mybutton1 {
 .bio {
     display: flex;
     justify-content: space-between;
-    padding: 5% 0;
-   
+    padding: 5% 0; 
 }
 
 .bio h1 {
@@ -330,7 +355,7 @@ a.mybutton1 {
   }
 
   .resumebutton:hover {
-      background-color:#758086;
+    background-color:#758086;
   }
 
 .myvalue {
@@ -377,8 +402,6 @@ a.mybutton1 {
     font-size: 0.9rem;
     bottom: 0;
     padding: 60px 120px 60px;
-    margin-top: auto;
-    z-index: 99;
 }
 
 .mailfooter {
@@ -886,12 +909,12 @@ height: 35px;
 }
 
 .slick-lightbox .slick-prev{
-    top: 50%;
-    left:0px;
+   width: 0;
+   height: 0;
 }
 .slick-lightbox .slick-next{
-    top: 50%;
-    right:0px;
+    width: 0;
+    height: 0;
 }
 .slick-lightbox-close{
     top:15px;
