@@ -392,6 +392,124 @@ a.mybutton1 {
     color: #35BDAF;
 }
 
+/* Through the Lens of Food */
+
+.writeup {
+    max-width: 1800px;
+    margin: 200px auto 0;
+    padding: 0 120px 70px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 140%;
+}
+
+.writeup img {
+    width: 100%;
+    height: auto;
+}
+
+.writeup h1 {
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin: 80px 0 0;
+    color: #1E2224;
+
+}
+
+.writeup h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #35BDAF;
+}
+
+.writeup p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #191919;
+    line-height: 200%;
+    margin: 30px 0 80px;
+}
+
+.title h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+.credits {
+    display: flex;
+}
+
+
+.credits h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.role {
+    margin-right: 150px;
+}
+
+.team {
+    display: flex; 
+    
+}
+
+ .team p span, .role p span {
+    display: block;
+}
+
+.team1, .team2 {
+    margin-top: 22px;
+}
+
+.team1 {
+    margin-left: -20%;
+    margin-right: 60px;
+}
+
+.team2 {
+    margin-right: 50px;
+}
+
+.problem h2 {
+    font-size: 4rem;
+    line-height: 120px;
+}
+
+.whatidid img {
+    margin-bottom: 3%;
+}
+
+.final p {
+    margin: 0 auto 80px;
+}
+
+.screen1, .screen2 {
+    display: flex;
+}
+
+.screen1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.screen2 {
+    margin-bottom: 120px;
+}
+
+.screen1 img, .screen2 img {
+    width: 45%;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+
+
+
+
 /* footer */
 
 .footer-container {
@@ -404,7 +522,6 @@ a.mybutton1 {
     line-height: 30px;
     font-weight: 300;
     font-size: 0.9rem;
-    bottom: 0;
     padding: 60px 120px 60px;
 }
 
@@ -505,6 +622,36 @@ header img {
     font-size: 2.5rem;
 }
 
+/* Through the Lens of Food */
+
+.writeup {
+    max-width: 1800px;
+    margin: 300px auto 0;
+    padding: 0 120px 70px;
+}
+.writeup h1 {
+    font-size: 3.3rem;
+}
+
+.writeup h2 {
+    font-size: 2.5rem;
+}
+
+.writeup p {
+    font-size: 2.3rem;
+}
+
+.problem h2 {
+    font-size: 5rem;
+    line-height: 130px;
+}
+
+.team1 {
+    margin-left: -24%;
+    margin-right: 60px;
+}
+
+
 /* footer */
 
 .footer-container {
@@ -587,6 +734,29 @@ header {
 
 .container-about h2 {
     font-size: 2rem;
+}
+
+/* Through the Lens of Food */
+
+.writeup {
+    padding: 0 80px 70px;
+}
+
+
+.title h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+
+.team1 {
+    margin-left: -24%;
+}
+
+.screen1 img, .screen2 img {
+    margin-right: 100px;
 }
 
 /* footer */
@@ -805,8 +975,43 @@ nav ul li {
     font-size: 2rem;
 }
 
+/* Through the Lens of Food */
+
+.writeup {
+    padding: 0 60px 70px;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.role {
+    margin-right: 100px;
+}
+
+.team1 {
+    margin-left: -25%;
+    margin-right: 60px;
+}
+
+.team2 {
+    margin-right: 50px;
+}
+
+.problem h2 {
+    font-size: 3.8rem;
+}
+
+
+.screen1 img, .screen2 img {
+    width: 50%;
+    margin-right: 80px;
+}
+
 /* footer */
 .footer-container {
+    width: 85%;
     padding: 60px 60px 60px;
 }
 
