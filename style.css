@@ -513,8 +513,10 @@ a.mybutton1 {
 /* footer */
 
 .footer-container {
+    position: relative;
+    right: 0;
+    left: 0;
     bottom: 0;
-    height: 100%;
     background-color:#1E2224;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -1011,7 +1013,6 @@ nav ul li {
 
 /* footer */
 .footer-container {
-    width: 85%;
     padding: 60px 60px 60px;
 }
 
