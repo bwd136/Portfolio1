@@ -322,7 +322,7 @@ a.mybutton1 {
 
 .bio img {
     margin-top: 0.5%;
-    width: 40%;
+    width: 46%;
     height: 0%;
 }
 
@@ -340,6 +340,7 @@ a.mybutton1 {
     margin: 0 0;
     margin-left: 8%;
 }
+
 
 .resumebutton {
     background-color:#35BDAF;
@@ -361,7 +362,7 @@ a.mybutton1 {
 }
 
 .myvalue {
-    padding-left: 45%;
+    padding-left: 50%;
 }
 
 .container-about h1 {
