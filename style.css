@@ -278,10 +278,11 @@ a.mybutton1 {
 }
 
 
-[dir='rtl'] .slick-next:before, .slick-prev:before {   
+[dir='rtl'] .slick-next:before, .slick-prev:before{   
     color: #1E2224;
     content: url(images/chevronback.svg);
 }
+
 
 .slick-lightbox img {
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
@@ -289,12 +290,14 @@ a.mybutton1 {
 
 .slick-lightbox .slick-prev {
     top: 50%;
-    left:30px;
+    left: 30px;
+    z-index: 9999;
 }
 
 .slick-lightbox .slick-next {
     top: 50%;
-    right:30px;
+    right: 30px;
+    z-index: 9999;
 }
 
 .slick-lightbox-close {
