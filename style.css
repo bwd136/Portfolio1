@@ -25,7 +25,7 @@ a {
 .hero {
     position: relative;
     width: 100%;
-    height: 2000px; 
+    height: 1380px; 
 }
 
 .herobox {
@@ -53,14 +53,14 @@ a {
 
 .herotext {
     position: fixed;
-    bottom: 20%;
+    top: 48%;
     padding: 0% 35% 0% 7%;
 }
 
 .herotext h1 {
     font-family: 'Racing Sans One', cursive;
     font-weight: 500;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
     color: white;
     letter-spacing: 10px; 
 }
@@ -68,7 +68,7 @@ a {
 .herotext h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     color: #ababab;
     letter-spacing: 1px;
     margin-top: 3%;
@@ -76,10 +76,10 @@ a {
 
 .chevron {
     position: absolute;
-    margin: 3% auto 0;
+    margin: 6% auto 0;
     left: 0;
     right: 0;
-    width: 50px;
+    width: 60px;
     height: auto;
 }
 
@@ -661,11 +661,11 @@ header img {
 .footer-container {
     font-size: 1.5rem;
     line-height: 45px;
-    padding: 80px 120px 80px;
+    padding: 90px 120px 90px;
 }
 
 .myicon {
-    width: 58px;
+    width: 55px;
     height: auto;
     margin-left: 80px;
 }
@@ -677,7 +677,7 @@ header img {
 /* herobox */
 
 .chevron {
-    margin: 8% auto 0;
+    margin: 15% auto 0;
 }
 .herotext {
     padding: 0% 30% 0% 7%;
@@ -799,7 +799,7 @@ footer {
 }
 
 .chevron {
-    margin: 2% auto 0;
+    margin: 20% auto 0;
 }
 
 .texttop {
@@ -1058,6 +1058,13 @@ footer {
     font-size: 4vw;
 }
 
+.chevron {
+   
+    margin: 30% auto 0;
+    width: 45px;
+ 
+}
+
 /* navbar */
 .header {
     padding: 30px 30px;
@@ -1085,6 +1092,7 @@ height: 35px;
 /* project page */
 .texttop {
     margin: 0 30px 68px;
+    line-height: 140%;
 }
 
 .container-projects {
