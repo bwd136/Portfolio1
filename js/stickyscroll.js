@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 $(document).ready(function () {
     $(window).scroll(function () {
-        $(".hero").css("opacity", 1 - $(window).scrollTop() / $('.hero').height()*6);
+        $(".hero").css("opacity", 1 - $(window).scrollTop() / $('.hero').height()*2);
     
         // if ($(document).scrollTop() > 1225) {
         //     $(".header-container").addClass("scrolled");
