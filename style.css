@@ -46,7 +46,7 @@ a {
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: center center;
+    background-position: center 60%;
     transform: translateZ(0);
     will-change: transform;
 }
@@ -423,6 +423,7 @@ a.mybutton1 {
 .writeup h2 {
     font-weight: 700;
     font-size: 1.7rem;
+    line-height: 130%;
     color: #35BDAF;
 }
 
